@@ -1,19 +1,22 @@
-{% block base_page_content %}
+
 {% load static %}
+{% block base_page_content %}
+
 <!DOCTYPE html>
-<html style="background-color:blue">
+<html>
 
 	<head>
+		<link rel="stylesheet" href="{% static 'css/base.css' %}">
 		{%include "nav.html" %}
 	</head>
 {% block content %}
 {% endblock %}
 
 <footer>
-</footer>
-</html>
-
 {%include "footer.html" %}
+</footer>
+
+</html>
 
 {% endblock %}
 
