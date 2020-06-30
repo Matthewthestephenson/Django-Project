@@ -6,9 +6,11 @@
 <html>
 
 	<head>
-		<link rel="stylesheet" href="{% static 'css/base.css' %}">
-		{%include "nav.html" %}
+		<link rel=stylesheet type="text/css" href="{% static 'css/base.css' %}">
 	</head>
+<body>
+{%include "nav.html" %}
+</body>
 {% block content %}
 {% endblock %}
 
