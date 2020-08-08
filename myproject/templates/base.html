@@ -14,10 +14,14 @@
 		{%include "nav.html" %}
 	</header>
 	<body>
-		
-
-		{% block content %}
-		{% endblock %}
+		<div id="SubHeader">
+			{% block subHeaderContent %}
+			{% endblock %}
+		</div>
+		<div id = "body">
+			{% block content %}
+			{% endblock %}
+		</div>
 
 		<footer>
 			{% block footer %}

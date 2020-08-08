@@ -6,15 +6,24 @@
 <link rel=stylesheet type="text/css" href="{% static 'css/home.css' %}">
 {% endblock css %}
 
-{% block content %}
+{% block subHeaderContent %}
+<div id="ProfilePhoto">
+	<img src={% static "photos/bathroom.jpg" %} width="100px" alt="Avatar" class="ProfilePhoto"/>
+</div>
 <div id="Profile">
 <h3>Matthew Stephenson</h3>
 <h6>Software Engineer</h6>
 </div>
 
+{% endblock subHeaderContent %}
+
+{% block content %}
+
+
 <div id="AboutMe">
 <h5>About Me</h5>
-<p>I am Matt Stephenson</p>
+<p>I am Matt Stephenson, a Software Engineer based out of Lenexa, KS.  In my free time I enjoy playing Ultimate Frisbee and doing projects projects ranging from home automation tasks with 
+ my Freenas and Raspberry Pis to learning PCB design.</p>
 </div>
 
 {% endblock content %}

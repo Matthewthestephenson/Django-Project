@@ -12,6 +12,16 @@ body {
     position: relative;
 }
 
+#SubHeader {
+	/*min-height: 10vh;*/
+	background-color: #343a40;
+	border:1px solid #8080808f;
+	text-align: center;
+}
+#body {
+	text-align: center;
+}
+
 footer {
     background-color: orange;
     bottom: 0;
