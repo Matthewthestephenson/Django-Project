@@ -1,9 +1,21 @@
 {% extends 'base.html' %}
-{% block title %}
-    <title>CrmApp</title>
-{% endblock title %}
+
+
+{% block css %}
+{% load static %}
+<!--<link rel=stylesheet type="text/css" href="{% static 'css/home.css' %}">-->
+{% endblock css %}
 
 {% block content %}
-<p> hi</p>
+<div id="Profile">
+<h3>Matthew Stephenson</h3>
+<h6>Software Engineer</h6>
+</div>
+
+<div id="AboutMe">
+<h5>About Me</h5>
+<p>I am Matt Stephenson</p>
+</div>
+
 {% endblock content %}
 
