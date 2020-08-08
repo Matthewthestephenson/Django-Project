@@ -9,15 +9,24 @@
 		<link rel=stylesheet type="text/css" href="{% static 'css/base.css' %}">
 		{% block css %}{% endblock %}
 	</head>
-<body>
-{%include "nav.html" %}
-</body>
-{% block content %}
-{% endblock %}
+	<div id="main-wrapper">
+	<header>
+		{%include "nav.html" %}
+	</header>
+	<body>
+		
 
-<footer>
-{%include "footer.html" %}
-</footer>
+		{% block content %}
+		{% endblock %}
+
+		<footer>
+			{% block footer %}
+			{%include "footer.html" %}
+			{% endblock %}
+		</footer>
+
+	</body>
+	</div>
 
 </html>
 
