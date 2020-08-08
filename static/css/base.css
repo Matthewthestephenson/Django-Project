@@ -19,6 +19,9 @@ body {
 	text-align: center;
 }
 #body {
+	/*text-align: center;*/
+}
+#bodyCentered{
 	text-align: center;
 }
 
