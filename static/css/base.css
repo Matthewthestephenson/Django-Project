@@ -26,9 +26,12 @@ body {
 }
 
 footer {
-    background-color: orange;
+/*    background-color: orange;
     bottom: 0;
     height: 100px;
+    left: 0;
+    */
+    bottom: 0;
     left: 0;
     position: absolute;
     width: 100%;
